@@ -5,6 +5,7 @@ import store from './store';
 
 import GlobalStyle from './global';
 import Catalog from './components/Catalog';
+import Cart from './components/Cart';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <Provider store={store}>
       <GlobalStyle />
       <Catalog />
+      <Cart />
     </Provider>
   );
 }
