@@ -23,3 +23,8 @@ margin-top: 30px;
     background: #fcead0;
 }
 `
+
+export const NoStockAlert = styled.span`
+    margin-top: 10px;
+    color: red;
+`
