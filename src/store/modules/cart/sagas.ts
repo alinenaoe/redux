@@ -26,8 +26,6 @@ function* checkProductStock({ payload }: CheckProductStockRequest) {
     } else {
         yield put(addProductToCartFailure(product.id));
     }
-
-    console.log(currentQuantity)
 }
 
 export default all([
